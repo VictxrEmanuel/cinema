@@ -8,8 +8,27 @@ Comentário de várias linhas
   box-sizing: border-box;
 }
 
-img {
-  width: 150px;
+header {
+  background-color: black;
+}
+header h1 {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+/*img{
+    width: 150px;
+}*/
+.card {
+  background-color: red;
+}
+.card img {
+  width: 20vw;
 }
 
 .titulo {

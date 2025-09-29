@@ -11,12 +11,30 @@ Comentário de várias linhas
     box-sizing: border-box; // tamanho das caixas / border-box = faz o calculo correto dos tamanhos dos elementos
 }
 
-img{
-    width: 150px;
+header{
+    background-color: black;
+    h1{
+        color: red;
+    }
 }
 
+a{
+    text-decoration: none; // retirando o sublinhado da tag 
+    color: aliceblue;
+    padding: 5px;
+}
+/*img{
+    width: 150px;
+}*/
 
 // .class = seletor
+
+.card{
+    background-color: red;
+        img{
+            width: 20vw;
+        }
+}
 
 .titulo{
     color: red;
